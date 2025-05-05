@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShoeStore.Infrastructure.Configuration
+{
+    public class ODataSettings
+    {
+        public string? BaseUrl { get; set; }
+        public string? Username { get; set; }
+        public string? Password { get; set; }
+        public bool UseHttps { get; set; } = true;  // Default to true for security
+    }
+
+}
